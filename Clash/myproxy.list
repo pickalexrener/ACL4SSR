@@ -1,3 +1,7 @@
 # south-plus
 DOMAIN-SUFFIX,south-plus.org
 DOMAIN-SUFFIX,south-plus.net
+
+# heroku
+DOMAIN-SUFFIX,herokuapp.com
+DOMAIN-SUFFIX,heroku.com
