@@ -5,3 +5,8 @@ DOMAIN-SUFFIX,south-plus.net
 # heroku
 DOMAIN-SUFFIX,herokuapp.com
 DOMAIN-SUFFIX,heroku.com
+DOMAIN-SUFFIX,herokucdn.com
+
+#pocket
+DOMAIN-SUFFIX,getpocket.com
+DOMAIN-SUFFIX,pocket-image-cache.com
