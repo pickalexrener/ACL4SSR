@@ -10,3 +10,10 @@ DOMAIN-SUFFIX,herokucdn.com
 #pocket
 DOMAIN-SUFFIX,getpocket.com
 DOMAIN-SUFFIX,pocket-image-cache.com
+
+#ibb
+DOMAIN-SUFFIX,ibb.co
+
+
+#iloli
+DOMAIN-SUFFIX,i.loli.net
