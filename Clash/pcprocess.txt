@@ -1,0 +1,6 @@
+#迅雷
+PROCESS-NAME,Thunder.exe
+PROCESS-NAME,APlayer.exe
+PROCESS-NAME,DownloadSDKServer.exe
+PROCESS-NAME,DownloadSDKServer.exe
+PROCESS-NAME,xlbrowsershell.exe
