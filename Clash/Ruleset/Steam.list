@@ -3,3 +3,6 @@
 DOMAIN-SUFFIX,fanatical.com
 DOMAIN-SUFFIX,humblebundle.com
 DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,store.akamai.steamstatic.com
+DOMAIN-SUFFIX,community.akamai.steamstatic.com
+DOMAIN-SUFFIX,cdn.akamai.steamstatic.com
