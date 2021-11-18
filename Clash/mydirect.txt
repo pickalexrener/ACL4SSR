@@ -12,7 +12,6 @@ DOMAIN-SUFFIX,steamgames.com
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamusercontent.com
 DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com
-DOMAIN-SUFFIX,cdn.cloudflare.steamstatic.com
 DOMAIN-SUFFIX,st.dl.eccdnx.com
 DOMAIN-SUFFIX,st.dl.bscstorage.net
 DOMAIN-SUFFIX,st.dl.pinyuncloud.com
@@ -22,7 +21,6 @@ DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
 DOMAIN-SUFFIX,cdn-qc.content.steamchina.com
 DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
 DOMAIN-SUFFIX,replay1.wmsj.cn
-DOMAIN-SUFFIX,redirector.gvt1.com
 DOMAIN-SUFFIX,wmsj.cn
 
 
