@@ -20,7 +20,9 @@ DOMAIN-SUFFIX,cdn.mileweb.cs.steampowered.com.8686c.com
 DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
 DOMAIN-SUFFIX,cdn-qc.content.steamchina.com
 DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
-DOMAIN-KEYWORD,wmsj
+DOMAIN-SUFFIX,replay1.wmsj.cn
+DOMAIN-SUFFIX,redirector.gvt1.com
+DOMAIN-SUFFIX,wmsj.cn
 
 #epic
 DOMAIN-SUFFIX,epicgames-download1-1251447533.file.myqcloud.com
