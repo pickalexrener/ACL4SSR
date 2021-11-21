@@ -29,3 +29,5 @@ DOMAIN-SUFFIX,epicgames-download1-1251447533.file.myqcloud.com
 
 #战网
 DOMAIN-SUFFIX,wow.battlenet.com.cn
+
+DOMAIN-SUFFIX,jianguoyun.com
