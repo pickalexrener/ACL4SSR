@@ -96,6 +96,5 @@ dns:
       - +.googleapis.cn
       - +.googleapis.com
       - +.gvt1.com
-profile:
-  store-fakeip: true
+
 
