@@ -31,3 +31,6 @@ DOMAIN-SUFFIX,epicgames-download1-1251447533.file.myqcloud.com
 DOMAIN-SUFFIX,wow.battlenet.com.cn
 
 DOMAIN-SUFFIX,jianguoyun.com
+
+#hostloc
+DOMAIN-SUFFIX,hostloc.com
