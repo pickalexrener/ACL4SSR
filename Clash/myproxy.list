@@ -18,7 +18,7 @@ DOMAIN-SUFFIX,ibb.co
 DOMAIN-SUFFIX,loli.net
 
 #hostloc
-#DOMAIN-SUFFIX,hostloc.com
+DOMAIN-SUFFIX,hostloc.com
 
 #rarbg
 DOMAIN-SUFFIX,rarbg.to
