@@ -33,4 +33,4 @@ DOMAIN-SUFFIX,wow.battlenet.com.cn
 DOMAIN-SUFFIX,jianguoyun.com
 
 #hostloc
-DOMAIN-SUFFIX,hostloc.com
+#DOMAIN-SUFFIX,hostloc.com
