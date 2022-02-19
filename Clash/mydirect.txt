@@ -34,3 +34,6 @@ DOMAIN-SUFFIX,jianguoyun.com
 
 #hostloc
 #DOMAIN-SUFFIX,hostloc.com
+
+#chd
+DOMAIN-KEYWORD,chdbits
