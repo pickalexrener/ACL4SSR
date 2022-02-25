@@ -37,3 +37,6 @@ DOMAIN-SUFFIX,jianguoyun.com
 
 #chd
 DOMAIN-KEYWORD,chdbits.co
+
+#netcup
+DOMAIN-KEYWORD,netcup
