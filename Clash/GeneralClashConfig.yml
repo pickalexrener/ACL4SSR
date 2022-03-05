@@ -7,93 +7,93 @@ external-controller: '127.0.0.1:9090'
 experimental:
   ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
   # interface-name: en0 # outbound interface name
-dns:
-  enable: true 
-  ipv6: true # true/false 是否启用 ipv6 支持 
-  # 从 v0.18.8 版本开始，TUN 模式建议使用 fake-ip 模式，redir-host 将无法进行远端 DNS 解析
-  enhanced-mode: fake-ip # redir-host/fake-ip
-  #default-nameserver: # 用于 DoH/DoT 的 Bootstrap Server
-    #- 223.5.5.5  # 阿里公共 DNS
-    #- 223.6.6.6  # 阿里公共 DNS
-    #- 119.29.29.29 # DNSPOD 公共 DNS
-  use-hosts: true
-  fake-ip-range: 198.18.0.1/16
-  fake-ip-filter: # 微软系 APP 无法登陆使用等问题，通过添加 fake-ip-filter 解决
-    - "*.lan"
-    - "*.local"
-    - "dns.msftncsi.com"
-    - "www.msftncsi.com"
-    - "www.msftconnecttest.com"
-    - "stun.*.*.*"
-    - "stun.*.*"
-    - miwifi.com
-    - music.163.com
-    - "*.music.163.com"
-    - "*.126.net"
-    - api-jooxtt.sanook.com
-    - api.joox.com
-    - joox.com
-    - y.qq.com
-    - "*.y.qq.com"
-    - streamoc.music.tc.qq.com
-    - mobileoc.music.tc.qq.com
-    - isure.stream.qqmusic.qq.com
-    - dl.stream.qqmusic.qq.com
-    - aqqmusic.tc.qq.com
-    - amobile.music.tc.qq.com
-    - "*.xiami.com"
-    - "*.music.migu.cn"
-    - music.migu.cn
-    - netis.cc
-    - router.asus.com
-    - repeater.asus.com
-    - routerlogin.com
-    - routerlogin.net
-    - tendawifi.com
-    - tendawifi.net
-    - tplinklogin.net
-    - tplinkwifi.net
-    - tplinkrepeater.net
-    - "*.ntp.org.cn"
-    - "*.openwrt.pool.ntp.org"
-    - "*.msftconnecttest.com"
-    - "*.msftncsi.com"
-    - localhost.ptlogin2.qq.com
-    - "*.*.*.srv.nintendo.net"
-    - "*.*.stun.playstation.net"
-    - "xbox.*.*.microsoft.com"
-    - "*.ipv6.microsoft.com"
-    - "*.*.xboxlive.com"
-    - speedtest.cros.wr.pvp.net
-  nameserver: # GeoIP 为 CN 时使用的 DNS NameServer（使用DoH/DoT）
-    #- https://doh.pub/dns-query   # DNSPod DoH
-    #- https://dns.alidns.com/dns-query  # 阿里 DoH
-    #- https://[2400:3200::1]/dns-query  # 阿里 DoH
-    #- https://[2400:3200:baba::1]/dns-query # 阿里 DoH
-    - 223.5.5.5
-    - 114.114.114.114
-  fallback: # GeoIP 为非 CN 使用的 DNS NameServer（使用DoH/DoT）
-    #- https://doh.dns.sb/dns-query    # DNS.SB DoH
-    #- https://dns.google/dns-query    # Google DoH
-    #- https://1.1.1.1/dns-query   # Cloudflare DoH
-    #- https://1.0.0.1/dns-query   # Cloudflare DoH
-    - 1.1.1.1
-    - 8.8.8.8
-  fallback-filter:
-    geoip: true # 启用 GeoIP
-    ip-cidr:
-      - 240.0.0.0/4
-      - 127.0.0.1/8
-      - 0.0.0.0/32
-    domain:
-      - +.google.com
-      - +.facebook.com
-      - +.twitter.com
-      - +.youtube.com
-      - +.xn--ngstr-lra8j.com
-      - +.google.cn
-      - +.googleapis.cn
-      - +.googleapis.com
-      - +.gvt1.com
+# dns:
+#   enable: true 
+#   ipv6: true # true/false 是否启用 ipv6 支持 
+#   # 从 v0.18.8 版本开始，TUN 模式建议使用 fake-ip 模式，redir-host 将无法进行远端 DNS 解析
+#   enhanced-mode: fake-ip # redir-host/fake-ip
+#   #default-nameserver: # 用于 DoH/DoT 的 Bootstrap Server
+#     #- 223.5.5.5  # 阿里公共 DNS
+#     #- 223.6.6.6  # 阿里公共 DNS
+#     #- 119.29.29.29 # DNSPOD 公共 DNS
+#   use-hosts: true
+#   fake-ip-range: 198.18.0.1/16
+#   fake-ip-filter: # 微软系 APP 无法登陆使用等问题，通过添加 fake-ip-filter 解决
+#     - "*.lan"
+#     - "*.local"
+#     - "dns.msftncsi.com"
+#     - "www.msftncsi.com"
+#     - "www.msftconnecttest.com"
+#     - "stun.*.*.*"
+#     - "stun.*.*"
+#     - miwifi.com
+#     - music.163.com
+#     - "*.music.163.com"
+#     - "*.126.net"
+#     - api-jooxtt.sanook.com
+#     - api.joox.com
+#     - joox.com
+#     - y.qq.com
+#     - "*.y.qq.com"
+#     - streamoc.music.tc.qq.com
+#     - mobileoc.music.tc.qq.com
+#     - isure.stream.qqmusic.qq.com
+#     - dl.stream.qqmusic.qq.com
+#     - aqqmusic.tc.qq.com
+#     - amobile.music.tc.qq.com
+#     - "*.xiami.com"
+#     - "*.music.migu.cn"
+#     - music.migu.cn
+#     - netis.cc
+#     - router.asus.com
+#     - repeater.asus.com
+#     - routerlogin.com
+#     - routerlogin.net
+#     - tendawifi.com
+#     - tendawifi.net
+#     - tplinklogin.net
+#     - tplinkwifi.net
+#     - tplinkrepeater.net
+#     - "*.ntp.org.cn"
+#     - "*.openwrt.pool.ntp.org"
+#     - "*.msftconnecttest.com"
+#     - "*.msftncsi.com"
+#     - localhost.ptlogin2.qq.com
+#     - "*.*.*.srv.nintendo.net"
+#     - "*.*.stun.playstation.net"
+#     - "xbox.*.*.microsoft.com"
+#     - "*.ipv6.microsoft.com"
+#     - "*.*.xboxlive.com"
+#     - speedtest.cros.wr.pvp.net
+#   nameserver: # GeoIP 为 CN 时使用的 DNS NameServer（使用DoH/DoT）
+#     #- https://doh.pub/dns-query   # DNSPod DoH
+#     #- https://dns.alidns.com/dns-query  # 阿里 DoH
+#     #- https://[2400:3200::1]/dns-query  # 阿里 DoH
+#     #- https://[2400:3200:baba::1]/dns-query # 阿里 DoH
+#     - 223.5.5.5
+#     - 114.114.114.114
+#   fallback: # GeoIP 为非 CN 使用的 DNS NameServer（使用DoH/DoT）
+#     #- https://doh.dns.sb/dns-query    # DNS.SB DoH
+#     #- https://dns.google/dns-query    # Google DoH
+#     #- https://1.1.1.1/dns-query   # Cloudflare DoH
+#     #- https://1.0.0.1/dns-query   # Cloudflare DoH
+#     - 1.1.1.1
+#     - 8.8.8.8
+#   fallback-filter:
+#     geoip: true # 启用 GeoIP
+#     ip-cidr:
+#       - 240.0.0.0/4
+#       - 127.0.0.1/8
+#       - 0.0.0.0/32
+#     domain:
+#       - +.google.com
+#       - +.facebook.com
+#       - +.twitter.com
+#       - +.youtube.com
+#       - +.xn--ngstr-lra8j.com
+#       - +.google.cn
+#       - +.googleapis.cn
+#       - +.googleapis.com
+#       - +.gvt1.com
 
 
