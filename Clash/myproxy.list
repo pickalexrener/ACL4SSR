@@ -52,3 +52,6 @@ DOMAIN-SUFFIX,dmhy.org
 
 #qb官网
 DOMAIN-SUFFIX,qbittorrent.org
+
+#tmdb
+DOMAIN-SUFFIX,themoviedb.org
