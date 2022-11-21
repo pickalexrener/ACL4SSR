@@ -58,3 +58,9 @@ DOMAIN-SUFFIX,themoviedb.org
 DOMAIN,api.themoviedb.org
 DOMAIN,api.tmdb.org		
 DOMAIN,image.tmdb.org
+
+#emby
+DOMAIN,jmsooo.com
+DOMAIN,embymv.tk
+DOMAIN,poloemby.xyz
+DOMAIN,misakaf.org
