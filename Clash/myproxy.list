@@ -54,9 +54,9 @@ DOMAIN-SUFFIX,dmhy.org
 DOMAIN-SUFFIX,qbittorrent.org
 
 #tmdb
-DOMAIN-SUFFIX,themoviedb.org
-DOMAIN,api.themoviedb.org
-DOMAIN,api.tmdb.org		
+#DOMAIN-SUFFIX,themoviedb.org
+#DOMAIN,api.themoviedb.org
+#DOMAIN,api.tmdb.org		
 DOMAIN,image.tmdb.org
 
 #emby
