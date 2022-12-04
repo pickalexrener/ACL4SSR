@@ -41,5 +41,4 @@ DOMAIN-SUFFIX,jianguoyun.com
 #netcup
 DOMAIN-KEYWORD,netcup
 
-#TMDBAPI
-DOMAIN,api.themoviedb.org
+
