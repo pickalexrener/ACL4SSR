@@ -41,4 +41,7 @@ DOMAIN-SUFFIX,jianguoyun.com
 #netcup
 DOMAIN-KEYWORD,netcup
 
-
+#nasservice
+DOMAIN,nasemby.gocarlo.top
+DOMAIN,nasqb.gocarlo.top
+IP-CIDR,5.255.108.130/32
