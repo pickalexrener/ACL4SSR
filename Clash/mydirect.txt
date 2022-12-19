@@ -32,6 +32,8 @@ DOMAIN-SUFFIX,wow.battlenet.com.cn
 
 DOMAIN-SUFFIX,jianguoyun.com
 
+
+
 #hostloc
 #DOMAIN-SUFFIX,hostloc.com
 
@@ -40,6 +42,9 @@ DOMAIN-SUFFIX,jianguoyun.com
 
 #netcup
 DOMAIN-KEYWORD,netcup
+
+#tmdb
+DOMAIN,api.tmdb.org
 
 #nasservice
 DOMAIN,nasemby.gocarlo.top
