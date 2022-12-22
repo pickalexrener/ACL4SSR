@@ -50,3 +50,5 @@ DOMAIN,api.tmdb.org
 DOMAIN,nasemby.gocarlo.top
 DOMAIN,nasqb.gocarlo.top
 IP-CIDR,5.255.108.130/32
+
+DOMAIN-SUFFIX,infinitynewtab.com
