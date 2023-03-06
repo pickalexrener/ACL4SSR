@@ -49,6 +49,9 @@ DOMAIN,api.tmdb.org
 #nasservice
 DOMAIN,nasemby.gocarlo.top
 DOMAIN,nasqb.gocarlo.top
+DOMAIN,nasembyv6.gocarlo.top
+DOMAIN,nasqbv6.gocarlo.top
 IP-CIDR,5.255.108.130/32
 
 DOMAIN-SUFFIX,infinitynewtab.com
+
