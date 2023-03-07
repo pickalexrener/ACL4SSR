@@ -71,9 +71,9 @@ dns:
     #- https://[2400:3200::1]/dns-query  # 阿里 DoH
     #- https://[2400:3200:baba::1]/dns-query # 阿里 DoH
     - 223.5.5.5
-    - [2408:8899::8]:53
-    - [2400:3200::1]:53
-    - [240e:4c:4008::1]:53
+    - "[2408:8899::8]:53"
+    - "[2400:3200::1]:53"
+    - "[240e:4c:4008::1]:53"
     #- 114.114.114.114
   fallback: # GeoIP 为非 CN 使用的 DNS NameServer（使用DoH/DoT）
     #- https://doh.dns.sb/dns-query    # DNS.SB DoH
