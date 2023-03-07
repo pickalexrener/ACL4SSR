@@ -72,7 +72,7 @@ dns:
     #- https://[2400:3200:baba::1]/dns-query # 阿里 DoH
     - 223.5.5.5
     - 2408:8899::8
-    - 218.2.135.1
+    - 2400:3200::1
     - 240e:4c:4008::1
     #- 114.114.114.114
   fallback: # GeoIP 为非 CN 使用的 DNS NameServer（使用DoH/DoT）
