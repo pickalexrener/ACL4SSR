@@ -57,3 +57,5 @@ IP-CIDR,5.255.108.130/32
 
 DOMAIN-SUFFIX,infinitynewtab.com
 
+DOMAIN-SUFFIX,axshare.com
+
