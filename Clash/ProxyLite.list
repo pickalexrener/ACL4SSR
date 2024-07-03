@@ -194,6 +194,7 @@ DOMAIN-SUFFIX,bbc.com
 # Developer 开发者常用国外网站、镜像和论坛
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,elastic.co
 DOMAIN-SUFFIX,elastic.com
 DOMAIN-SUFFIX,gcr.io
@@ -324,6 +325,10 @@ IP-CIDR,119.235.235.0/24,no-resolve
 IP-CIDR,119.235.236.0/23,no-resolve
 IP-CIDR,147.92.128.0/17,no-resolve
 IP-CIDR,203.104.128.0/19,no-resolve
+
+# OpenAi
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
 
 # OneDrive
 DOMAIN-KEYWORD,1drv
