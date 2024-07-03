@@ -376,11 +376,6 @@ DOMAIN-SUFFIX,hockeyapp.net
 DOMAIN-SUFFIX,readdle.com
 DOMAIN-SUFFIX,smartmailcloud.com
 
-# Steam
-DOMAIN-SUFFIX,fanatical.com
-DOMAIN-SUFFIX,humblebundle.com
-DOMAIN-SUFFIX,steamcommunity.com
-
 # TapTap
 DOMAIN-SUFFIX,tap.io
 DOMAIN-SUFFIX,taptap.tw
