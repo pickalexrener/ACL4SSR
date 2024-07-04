@@ -3,6 +3,7 @@
 # 数量：14条
 DOMAIN,api.steampowered.com
 DOMAIN,store.steampowered.com
+DOMAIN-SUFFIX,test.steampowered.com
 DOMAIN-SUFFIX,csgo.wmsj.cn
 DOMAIN-SUFFIX,dota2.wmsj.cn
 DOMAIN-SUFFIX,steamcontent.com
