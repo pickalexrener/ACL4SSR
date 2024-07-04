@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,cdn-qc.content.steamchina.com
 DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
 DOMAIN-SUFFIX,replay1.wmsj.cn
 DOMAIN-SUFFIX,wmsj.cn
+DOMAIN-SUFFIX,steamserver.net
 
 #Epic平台
 DOMAIN-SUFFIX,epicgames.com
