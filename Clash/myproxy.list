@@ -10,6 +10,9 @@ DOMAIN-SUFFIX,herokuapp.com
 DOMAIN-SUFFIX,heroku.com
 DOMAIN-SUFFIX,herokucdn.com
 
+#jetbrains
+DOMAIN,downloads.marketplace.jetbrains.com
+
 #pocket
 DOMAIN-SUFFIX,getpocket.com
 DOMAIN-SUFFIX,pocket-image-cache.com
