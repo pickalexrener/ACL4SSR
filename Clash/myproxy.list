@@ -25,6 +25,7 @@ DOMAIN-SUFFIX,loli.net
 
 #hostloc
 DOMAIN-SUFFIX,hostloc.com
+DOMAIN-SUFFIX,linux.do
 
 #rarbg
 DOMAIN-SUFFIX,rarbg.to
@@ -41,6 +42,8 @@ DOMAIN,jmsooo.com
 DOMAIN,embymv.tk
 DOMAIN,poloemby.xyz
 DOMAIN,misakaf.org
+
+
 
 #ptweb
 DOMAIN,ourbits.club
