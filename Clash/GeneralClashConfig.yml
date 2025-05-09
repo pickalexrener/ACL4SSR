@@ -67,22 +67,11 @@ dns:
     - "*.*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
   nameserver: # GeoIP 为 CN 时使用的 DNS NameServer（使用DoH/DoT）
-    #- https://doh.pub/dns-query   # DNSPod DoH
-    #- https://dns.alidns.com/dns-query  # 阿里 DoH
-    #- https://[2400:3200::1]/dns-query  # 阿里 DoH
-    #- https://[2400:3200:baba::1]/dns-query # 阿里 DoH
     - 223.5.5.5
-    # - "[2408:8899::8]:53"
-    # - "[2400:3200::1]:53"
-    # - "[240e:4c:4008::1]:53"
     #- 114.114.114.114
-  # fallback: # GeoIP 为非 CN 使用的 DNS NameServer（使用DoH/DoT）
-  #   #- https://doh.dns.sb/dns-query    # DNS.SB DoH
-  #   #- https://dns.google/dns-query    # Google DoH
-  #   #- https://1.1.1.1/dns-query   # Cloudflare DoH
-  #   #- https://1.0.0.1/dns-query   # Cloudflare DoH
-  #   - 1.1.1.1
-  #   - 8.8.8.8
+  fallback: # GeoIP 为非 CN 使用的 DNS NameServer（使用DoH/DoT）
+    - tls://8.8.4.4
+    - tls://1.1.1.1
   fallback-filter:
     geoip: true # 启用 GeoIP
     ip-cidr:
