@@ -67,7 +67,9 @@ dns:
     - "*.*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
   nameserver: # GeoIP 为 CN 时使用的 DNS NameServer（使用DoH/DoT）
-    - 223.5.5.5
+    - 119.29.29.29
+    - 123.125.81.6
+    # - 223.5.5.5
     #- 114.114.114.114
   fallback: # GeoIP 为非 CN 使用的 DNS NameServer（使用DoH/DoT）
     - tls://8.8.4.4
